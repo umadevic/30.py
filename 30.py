@@ -1,5 +1,5 @@
 a,b=map(int,input().split())
 c,d=map(int,input().split())
-h=xyz(a-c)
-k=xyz(b-d)
+h=abs(a-c)
+k=abs(b-d)
 print(h,k)
